@@ -1,0 +1,23 @@
+<div class="container pad-top">
+
+    <h3>Użytkownicy</h3>
+
+    <table class="table table-bordered">
+        <td><b>Imię</b></td>
+        <td><b>Nazwisko</b></td>
+        <td><b>Wiek</b></td>
+        <tr ng-repeat="user in users">
+          <td>{{user.name}}</td>
+          <td>{{user.surname}}</td>
+          <td>{{user.age}}</td>
+          <td>
+
+              <a class="btn btn-success" ui-sref="viewUser({id:user.id})">Pokaż</a>
+              <a class="btn btn-danger"  ng-click="deleteUser(user)">Usuń</a>
+
+          </td>
+
+      </tr>
+  </table>
+    <a ui-sref="newUser" class="btn-success btn-lg nodecoration">Dodaj nowego użytkownika</a>
+</div>

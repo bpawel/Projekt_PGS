@@ -1,0 +1,5 @@
+pl/com/projekt/controller/UserService.class
+pl/com/projekt/controller/UserController.class
+pl/com/projekt/App.class
+pl/com/projekt/repository/UserRep.class
+pl/com/projekt/model/User.class
