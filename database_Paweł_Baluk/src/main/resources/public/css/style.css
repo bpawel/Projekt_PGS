@@ -1,0 +1,24 @@
+body {
+  padding-top: 100px;
+  background-color: #0f0f0f;
+  color: #dbdbdb;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.jumbotron .img-responsive {
+  margin: 0 auto;
+}
+.pad-top {
+  padding-top: 60px;
+}
+
+
+[ui-view] {
+  height: 65px;
+}
+.ui-view-container {
+  position: relative;
+}
+
